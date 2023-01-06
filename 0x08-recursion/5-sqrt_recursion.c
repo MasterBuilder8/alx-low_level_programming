@@ -1,13 +1,13 @@
 #include "main.h"
 
 /**
- * root - check the square root
+ * check_root - check the square root
  * @x: integer
  * @y: integer
  *
  * Return: integer
  */
-int root(int x, int y)
+int check_root(int x, int y)
 {
 	if (x * x == y)
 		return (x);
