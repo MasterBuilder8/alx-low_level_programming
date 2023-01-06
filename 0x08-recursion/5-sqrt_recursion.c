@@ -13,7 +13,7 @@ int check_root(int x, int y)
 		return (x);
 	if (x * x > y)
 		return (-1);
-	return (check(x + 1, y));
+	return (check_root(x + 1, y));
 }
 
 /**
@@ -26,5 +26,5 @@ int _sqrt_recursion(int n)
 {
 	if (n == 0)
 		return (0);
-	return (check(1, n));
+	return (check_root(1, n));
 }
